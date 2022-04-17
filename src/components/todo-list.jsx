@@ -6,10 +6,10 @@ const TodoList = () => {
   return (
     <ul>
       <li>
-        <TodoListItem />
+        <TodoListItem label="Drink Cofee" />
       </li>
       <li>
-        <TodoListItem />
+        <TodoListItem label="Build React App" />
       </li>
     </ul>
   );

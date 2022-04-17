@@ -15,4 +15,5 @@ const App = () => {
   );
 };
 
+// eslint-disable-next-line jest/require-hook
 ReactDOM.render(App, document.getElementById("root"));

@@ -1,5 +1,10 @@
 {
   "parser": "@babel/eslint-parser",
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "parserOptions": {
     "sourceType": "module",
     "allowImportExportEverywhere": false,
@@ -7,7 +12,12 @@
     "ecmaVersion": 8,
     "requireConfigFile": false
   },
-  "extends": ["airbnb", "prettier"],
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:testing-library/react",
+    "plugin:jest/all"
+  ],
   "env": {
     "browser": true,
     "jest": true
