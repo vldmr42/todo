@@ -9,7 +9,7 @@ const TodoList = () => {
         <TodoListItem label="Drink Cofee" />
       </li>
       <li>
-        <TodoListItem label="Build React App" />
+        <TodoListItem label="Build React App" important />
       </li>
     </ul>
   );
