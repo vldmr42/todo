@@ -48,7 +48,6 @@ export default class App extends Component {
       const newArray = [...todoData, newItem];
       return { todoData: newArray };
     });
-    console.log(text);
   };
 
   toggleProperty(arr, id, propName) {
